@@ -3,7 +3,7 @@
 ## Integrantes: 
 
 - Clara Cardona
-- Juan Camilo
+- Juan Camilo Adarme
 - Francy Pinzon
 - Santiago Marquez
 
