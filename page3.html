@@ -5,184 +5,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page 3</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="styles/Stylep3.css">
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
     <div>
         <header>
-            <div>
-                <div>
-                    <img src="../Bictia-Grupo3/images/Logos/logo_Cret.png" alt="Voice Feeling" id="logo"
-                        data-height-percentage="63" data-actual-width="800" data-actual-height="268">
-                </div>
-                <div>
-                    <nav>
+            <div class="page-container" style="overflow-y: hidden; margin-top: -1px;">
+                <header class="flex-header" style="right: 0px; left: 0px;">
+
+                    <a href="../Bictia-Grupo3/index.html"><img src="images/logo_Cret.png" alt="Logo"
+                            style="position: relative;"></a>
+                    <div class="content-nav">
+                        <nav class="nav-bar">
+                            <ul>
+                                <li><a href="../Bictia-Grupo3/index.html">Inicio</a></li>
+                                <li><a href="../Bictia-Grupo3/page4.html">Nosotros</a></li>
+                                <li><a href="../Bictia-Grupo3/page2.html">Servicios</a></li>
+                                <li><a href="../Bictia-Grupo3/page3.html" style="color: blueviolet;">Clientes</a></li>
+                                <li><a href="../Bictia-Grupo3/page5.html">Contacto</a></li>
+                                <i class="fas fa-search" style="color: white;"></i>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                <section class="social">
+                    <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp" style="color: white; font-size: 40px;"></i>
+                    </a>
+                </section>
+                <section class="grid-container">
+                    <article>
+                        <h1>
+                            <span>Nuestros clientes</span>
+                        </h1>
+                    </article>
+                    <article>
+                        <p>Estas empresas han confiado en nuestro método innovador.</p>
+                    </article>
+                    <article>
+                        <img src="../Bictia-Grupo3/images/Clientes/Container1/Explorers.png" alt="explorers">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container1/HostDime.png" alt="hostdime">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container1/Corona.png" alt="Corona">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container1/logo_c2.png" alt="atento">
+
+                    </article>
+                    <article>
+                        <p>Otros clientes que han creído e hicieron parte de nuestra experiencia con la firma Fusión
+                            Estratégica
+
+                        </p>
+                        <a href=" http://www.fefusionestrategica.com">www.fefusionestrategica.com </a>
+                    </article>
+                    <article>
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/1.png" alt="legis">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/2.png" alt="sura">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/3.jpg" alt="unisono">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/4.png" alt="gecolsa">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/5.png" alt="davivienda">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/6.png" alt="despegar">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/7.png" alt="segurosfalabella">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/8.png" alt="viajesfalabella">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/9.jpg" alt="helm">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/10.jpg" alt="logytech">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/11.png" alt="konecta">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/12.png" alt="konfigura">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/13.png" alt="ventasyservicios">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/14.png" alt="transborder">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/15.png" alt="sistemcobro">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/16.png" alt="semana">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/17.png" alt="jardinesdelrecuerdo">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/18.png" alt="bancofalabella">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/19.png" alt="cun">
+                        <img src="../Bictia-Grupo3/images/Clientes/Container2/20.png" alt="almundo">
+                    </article>
+                    <article>
+
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <h2>¿Deseas más información acerca de nuestros servicios?</h2>
+                        <p>
+                            <input type="text" name="NombreApellido" size="40" placeholder="Nombre y apellido">
+                            <input type="text" name="Email" size="40" placeholder="Direccion de correo electronico">
+                            <input type="text" name="Telefono" size="40" placeholder="Telefono">
+                            <textarea name="Mensaje" rows="10" cols="40" placeholder="Mensaje"></textarea>
+
+                            <input type="submit" value="Enviar">
+
+                        </p>
+                    </article>
+
+                </section>
+                <footer>
+                    <div>
+                        <div>
+                            <span>
+                                <img src="../Bictia-Grupo3/images/Logos/logo-blanco.png" alt="voiceblanco">
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                <img src="../Bictia-Grupo3/images/Logos/beirnesg.png" alt="beirnesg">
+                            </span>
+                        </div>
+                    </div>
+                    <div>
                         <ul>
-                            <li>
-                                <a href="./index.html">Inicio</a>
-                            </li>
-                            <li>
-                                <a href="./page4.html">Nosotros</a>
-                            </li>
-                            <li>
-                                <a href="./page2.html">Servicios</a>
-                            </li>
-                            <li>
-                                <a href="#">Clientes</a>
-                            </li>
 
                             <li>
-                                <a href="#">Contacto</a>
+                                <span>
+                                    <a style="color: #ffffff;" href="https://voicefeeling.com/">Inicio</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a style="color: #ffffff;" href="https://voicefeeling.com/nosotros">Nosotros</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a style="color: #ffffff;"
+                                        href="https://voicefeeling.com/reconocimiento">Reconocimiento</a>
+                                </span>
+
                             </li>
                         </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <section>
-            <article>
-                <h1>
-                    <span>Nuestros clientes</span>
-                </h1>
-            </article>
-            <article>
-                <p>Estas empresas han confiado en nuestro método innovador.</p>
-            </article>
-            <article>
-                <img src="../Bictia-Grupo3/images/Clientes/Container1/Explorers.png" alt="explorers">
-                <img src="../Bictia-Grupo3/images/Clientes/Container1/HostDime.png" alt="hostdime">
-                <img src="../Bictia-Grupo3/images/Clientes/Container1/Corona.png" alt="Corona">
-                <img src="../Bictia-Grupo3/images/Clientes/Container1/logo_c2.png" alt="atento">
-
-            </article>
-            <article>
-                <p>Otros clientes que han creído e hicieron parte de nuestra experiencia con la firma Fusión Estratégica
-
-                </p>
-                <a href=" http://www.fefusionestrategica.com">www.fefusionestrategica.com </a>
-            </article>
-            <article>
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/1.png" alt="legis">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/2.png" alt="sura">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/3.jpg" alt="unisono">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/4.png" alt="gecolsa">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/5.png" alt="davivienda">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/6.png" alt="despegar">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/7.png" alt="segurosfalabella">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/8.png" alt="viajesfalabella">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/9.jpg" alt="helm">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/10.jpg" alt="logytech">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/11.png" alt="konecta">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/12.png" alt="konfigura">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/13.png" alt="ventasyservicios">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/14.png" alt="transborder">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/15.png" alt="sistemcobro">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/16.png" alt="semana">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/17.png" alt="jardinesdelrecuerdo">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/18.png" alt="bancofalabella">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/19.png" alt="cun">
-                <img src="../Bictia-Grupo3/images/Clientes/Container2/20.png" alt="almundo">
-            </article>
-            <article>
-
-            </article>
-        </section>
-        <section>
-            <article>
-                <h2>¿Deseas más información acerca de nuestros servicios?</h2>
-                <p>
-                    <input type="text" name="NombreApellido" size="40" placeholder="Nombre y apellido">
-                    <input type="text" name="Email" size="40" placeholder="Direccion de correo electronico">
-                    <input type="text" name="Telefono" size="40" placeholder="Telefono">
-                    <textarea name="Mensaje" rows="10" cols="40" placeholder="Mensaje"></textarea>
-
-                    <input type="submit" value="Enviar">
-
-                </p>
-            </article>
-
-        </section>
-        <footer>
-            <div>
-                <div>
-                    <span>
-                        <img src="../Bictia-Grupo3/images/Logos/logo-blanco.png" alt="voiceblanco">
-                    </span>
-                </div>
-                <div>
-                    <span>
-                        <img src="../Bictia-Grupo3/images/Logos/beirnesg.png" alt="beirnesg">
-                    </span>
-                </div>
-            </div>
-            <div>
-                <ul>
-
-                    <li>
-                        <span>
-                            <a style="color: #ffffff;" href="https://voicefeeling.com/">Inicio</a>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <a style="color: #ffffff;" href="https://voicefeeling.com/nosotros">Nosotros</a>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            <a style="color: #ffffff;" href="https://voicefeeling.com/reconocimiento">Reconocimiento</a>
-                        </span>
-
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <p>&nbsp;</p>
-                <ul>
-                    <li>
-                        <span><a style="color: #ffffff;" href="https://voicefeeling.com/talleres-entrenamiento">Talleres
-                                y
-                                entrenamiento</a>
-                        </span>
-                    </li>
-                    <li>
-                        <span><a style="color: #ffffff;" href="https://voicefeeling.com/consultoria">Consultoría</a>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <div>
-                    <div>
-                        <p>Síguenos en nuestras redes sociales:</p>
-                        <p><a href="https://www.facebook.com/VOICEFEELING/" target="_blank"
-                                rel="noopener noreferrer"><img class="wp-image-83 alignnone size-medium"
-                                    src="https://voicefeeling.com/wp-content/uploads/2019/05/facebook-logo.png" alt=""
-                                    width="32" height="32"></a>&nbsp; &nbsp;&nbsp; <a
-                                href="https://www.linkedin.com/in/voice-feeling-9819a1186/" target="_blank"
-                                rel="noopener noreferrer"><img class="wp-image-84 alignnone size-medium"
-                                    src="https://voicefeeling.com/wp-content/uploads/2019/05/linkedin-logo-1.png" alt=""
-                                    width="36" height="36"></a></p>
                     </div>
-                </div> <!-- .et_pb_text -->
-                <div>
-
+                    <div>
+                        <p>&nbsp;</p>
+                        <ul>
+                            <li>
+                                <span><a style="color: #ffffff;"
+                                        href="https://voicefeeling.com/talleres-entrenamiento">Talleres
+                                        y
+                                        entrenamiento</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span><a style="color: #ffffff;"
+                                        href="https://voicefeeling.com/consultoria">Consultoría</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
 
                     <div>
-                        <p>
-                            <span style="color: #ffffff;">Diseño &amp; Desarrollo <a style="color: #ffffff;"
-                                    href="https://www.originlatam.co" target="_blank" rel="noopener noreferrer">Origin
-                                    Latam</a> 2019
-                            </span>
-                        </p>
-                    </div>
-                </div> <!-- .et_pb_text -->
-            </div>
-        </footer>
+                        <div>
+                            <div>
+                                <p>Síguenos en nuestras redes sociales:</p>
+                                <p><a href="https://www.facebook.com/VOICEFEELING/" target="_blank"
+                                        rel="noopener noreferrer"><img class="wp-image-83 alignnone size-medium"
+                                            src="https://voicefeeling.com/wp-content/uploads/2019/05/facebook-logo.png"
+                                            alt="" width="32" height="32"></a>&nbsp; &nbsp;&nbsp; <a
+                                        href="https://www.linkedin.com/in/voice-feeling-9819a1186/" target="_blank"
+                                        rel="noopener noreferrer"><img class="wp-image-84 alignnone size-medium"
+                                            src="https://voicefeeling.com/wp-content/uploads/2019/05/linkedin-logo-1.png"
+                                            alt="" width="36" height="36"></a></p>
+                            </div>
+                        </div> <!-- .et_pb_text -->
+                        <div>
 
-    </div>
+
+                            <div>
+                                <p>
+                                    <span style="color: #ffffff;">Diseño &amp; Desarrollo <a style="color: #ffffff;"
+                                            href="https://www.originlatam.co" target="_blank"
+                                            rel="noopener noreferrer">Origin
+                                            Latam</a> 2019
+                                    </span>
+                                </p>
+                            </div>
+                        </div> <!-- .et_pb_text -->
+                    </div>
+                </footer>
+
+            </div>
 </body>
 
 </html>
