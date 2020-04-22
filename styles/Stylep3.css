@@ -2,6 +2,40 @@ body {
     margin: 0px;
 }
 
-.grid-container {
+img {
+    max-width: 100%;
+}
+
+.gridclient-container {
     display: grid;
+    grid-template-areas:
+        'banner banner banner banner'
+        'maincl maincl maincl maincl'
+        'photo1 photo1 photo1 photo1';
+}
+
+.grid-banner {
+    grid-area: banner;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/Logos/imabck.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 169px;
+    padding-bottom: 82px;
+    background-color: #fff;
+    font-size: 100%;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+.grid-banner h1 {
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
+    color: white;
 }

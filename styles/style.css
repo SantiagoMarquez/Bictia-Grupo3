@@ -75,3 +75,23 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.flex-content {
+    display: flex;
+    grid-area: content;
+}
+
+.flex-content2 {
+    display: flex;
+    grid-area: content2;
+}
+
+.flex-content3 {
+    display: flex;
+    grid-area: content3;
+}
+
+.flex-footer {
+    display: flex;
+    grid-area: footer;
+}
