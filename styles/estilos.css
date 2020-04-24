@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color: cornsilk;
+}
+
+.flex-container {
+    display: flex;
+    border: solid;
+    padding: 1em;
+    background-color: rgb(107, 136, 126);
+    float: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-radius: auto;
+    justify-items: center;
+    align-items: center;
+    margin: 3px auto;
+    float: inline-end;
+    float: inline-start;
+}
+
+.container {
+    float: left;
+    justify-self: center;
+    margin: 10px auto;
+
+}
+
+.nav {
+    background-color: rgb(170, 130, 130);
+    border-radius: 10px;
+    display: inline;
+}
+
+.flex {
+
+    display: flex;
+    border: 1px;
+    padding: 1em;
+    align-items: stretch;
+    background-color: rgb(107, 136, 126);
+    float: center;
+    justify-content: justify;
+    margin: 3px auto;
+}
+
+.flex img {
+    display: block;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 1em;
+    max-width: 100%;
+    text-align: center;
+    float: right;
+}
+
+.grid-container {
+    margin: 3px solid;
+
+}
+
+
+
+.h1 {
+    background-color: violet;
+    text-align: center;
+
+}
+
+.section {
+    float: left;
+}
+
+.grid-container2 {
+    display: grid;
+    align-items: inline;
+    padding: 0px;
+}
+
+nav>ul {
+    justify-content: center;
+    display: inline;
+}
+
+li {
+    margin: 0 .75rem;
+}
+
+.footer {
+    align-content: flex-end;
+    align-content: flex-start;
+    border-color: inherit;
+}
+
+
+.img {
+    padding: 2em;
+    align-items: stretch;
+    float: left;
+    display: block;
+    justify-content: justify;
+    overflow: auto;
+    max-width: 100%;
+    text-align: justify;
+    height: auto;
+}
+
+.container img {
+    display: block;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 1em;
+    max-width: 100%;
+
+}
+
+.flex-container img {
+    background-color: rgb(122, 116, 122);
+    display: flex;
+    padding: 1em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-radius: auto;
+    justify-items: center;
+    align-items: center;
+    margin: 3px auto;
+    float: inline-end;
+    float: inline-start;
+
+}
