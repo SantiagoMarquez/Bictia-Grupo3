@@ -1,13 +1,14 @@
 body {
     margin: 0;
     background-color: cornsilk;
+    font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
 }
 
 .flex-container {
     display: flex;
     border: solid;
     padding: 1em;
-    background-color: rgb(107, 136, 126);
+    background-color: rgb(241, 247, 245);
     float: center;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -40,7 +41,7 @@ body {
     border: 1px;
     padding: 1em;
     align-items: stretch;
-    background-color: rgb(107, 136, 126);
+    background-color: rgb(241, 247, 245);
     float: center;
     justify-content: justify;
     margin: 3px auto;
