@@ -45,6 +45,7 @@ body {
     float: center;
     justify-content: justify;
     margin: 3px auto;
+    max-width: 100%;
 }
 
 .flex img {
